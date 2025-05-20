@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+  <link rel="stylesheet" href="cricket.css">
+  <link rel="stylesheet" href="cricket.js">
+ <style>
+  body{
+    text-align: center;
+  }
+ </style>
+</head>
+<body>
+  <h1> CRICKET </h1>
+  <h1> BAT BALL STUMP GAME</h1>
+  <h2> Lets play </h2>
+  <button 
+  onclick="// const userChoiceMsg = 'you have chosen bat';
+           // this will generate random number manth.random btw 0 and 3
+           let randomNumber = Math.random()*3;
+           let computerChoice;
+           if( randomNumber > 0 && randomNumber <= 1){
+               computerChoice = 'BAT';
+                  //console.log('computer choice is BAT');
+           } else if( randomNumber > 1 && randomNumber <= 2){
+                 computerChoice = 'BALL';
+                  // console.log('computer choice is BALL');
+           } else{
+              computerChoice = 'STUMP'
+                 //console.log('computer choice is STUMP');
+            }
+            const computerChoiceMsg = `computer choice is ${computerChoice}`;
+
+            let resultMsg;
+            if(computerChoice === 'BALL'){
+              resultMsg = 'User Won' ;
+            } else if (computerChoice === 'BAT'){
+              resultMsg = 'it is a tie';
+            } else if (computerChoice === 'STUMP'){
+              resultMsg = 'Computer Won';
+            }
+            alert( `you have chosen bat. Computer choice is ${ computerChoice} and  ${resultMsg}`);
+
+  
+  
+  
+  "> BAT</button>
+  <button onclick=" 
+                  // this will generate random number manth.random btw 0 and 3
+                  randomNumber = Math.random()*3;
+                  let computerchoice;
+                  if( randomNumber > 0 && randomNumber <= 1){
+                       computerchoice = 'BAT';
+                     //console.log('computer choice is BAT');
+                   } else if( randomNumber > 1 && randomNumber <= 2){
+                        computerchoice = 'BALL';
+                  // console.log('computer choice is BALL');
+                  } else{
+                      computerchoice = 'STUMP'
+                  //console.log('computer choice is STUMP');
+                  }
+      
+                   let resultmsg;
+                  if(computerchoice === 'BALL'){
+                       resultmsg = 'it is a tie' ;
+                  } else if (computerchoice === 'BAT'){
+                       resultmsg = 'Computer Won';
+                  } else if (computerchoice === 'STUMP'){
+                       resultmsg = 'User Won';
+                  }
+                  alert( `you have chosen ball. Computer choice is ${ computerchoice} and  ${resultmsg}`);"> BALL</button>
+
+  <button onclick=" const userChoiceMsg = 'you have chosen bat';
+                  // this will generate random number manth.random btw 0 and 3
+                  randomNumber = Math.random()*3;
+                  let cOmputerChoice;
+                  if( randomNumber > 0 && randomNumber <= 1){
+                       cOmputerChoice = 'BAT';
+                        //console.log('computer choice is BAT');
+                   } else if( randomNumber > 1 && randomNumber <= 2){
+                             cOmputerChoice = 'BALL';
+                         // console.log('computer choice is BALL');
+                   } else{
+                        cOmputerChoice = 'STUMP'
+                   //console.log('computer choice is STUMP');
+                   }
+                   //const computerChoiceMsg = `computer choice is ${computerChoice}`;
+
+                  let resultMSg;
+                  if(cOmputerChoice === 'BALL'){
+                       resultMSg = 'User Won' ;
+                  } else if (cOmputerChoice === 'BAT'){
+                        resultMSg = 'Computer Won';
+                  } else if (cOmputerChoice === 'STUMP'){
+                        resultMSg = 'it is a tie';
+                  } 
+                    alert( `you have chosen stump . Computer choice is ${ cOmputerChoice} and  ${resultMSg}`);"> STUMP</button>
+
+ 
+  
+
+
+
+</body>
+</html>
